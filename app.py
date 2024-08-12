@@ -12,4 +12,4 @@ api.add_resource(ListingByID, "/listings/<int:id>")
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
